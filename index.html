@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlinT — Spark, OS & Desktop</title>
+    <meta
+      name="description"
+      content="Meet the FlinT ecosystem: Spark devices, FlinT OS firmware and the Desktop companion."
+    />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" href="./assets/FlinT_logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <canvas class="atmosphere__field" id="signal-field"></canvas>
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__spark"></div>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <nav class="topnav" aria-label="Main navigation"><div class="shell topnav__inner"><a class="topnav__brand" href="./index.html">FlinT <span>by DeeTech Labs</span></a><div class="topnav__links"><a href="./index.html" aria-current="page">Home</a><a href="./spark.html">Spark</a><a href="./os.html">FlinT OS</a><a href="./desktop.html">Desktop</a><a href="./changelog.html">Changelog</a></div></div></nav><header class="hero"><div class="shell hero__inner"><div class="hero__brand"><img class="hero__mark" src="./assets/FlinT_logo.png" width="280" height="280" alt="FlinT logo" /></div><div class="hero__copy"><p class="hero__eyebrow">DEVICES · FIRMWARE · COMPANION</p><h1 class="hero__title">Small spark.<br/><span>Your world.</span></h1><p class="hero__lede">A device on your desk. Open firmware at its heart. A companion on your computer. Meet FlinT, by DeeTech Labs.</p><div class="hero__cta"><a class="btn btn--primary" href="#ecosystem">Explore FlinT</a><a class="btn btn--ghost" href="./spark.html">Meet Spark</a></div></div></div></header><main><section class="block" id="ecosystem"><div class="shell"><p class="block__label">One ecosystem</p><h2 class="block__title">Made to work together.</h2><div class="product-grid"><a class="product-card" href="./spark.html"><span class="block__label">01 / DEVICE</span><h3>Spark</h3><p>The first FlinT device. A compact display powered by ESP32-C3.</p><span class="product-card__link">Explore Spark ↗</span></a><a class="product-card" href="./os.html"><span class="block__label">02 / FIRMWARE</span><h3>FlinT OS</h3><p>The firmware behind the clock: faces, time, settings and companion connectivity.</p><span class="product-card__link">Explore FlinT OS ↗</span></a><a class="product-card" href="./desktop.html"><span class="block__label">03 / COMPANION</span><h3>Desktop</h3><p>Connect your device, sync time and make it yours from your computer.</p><span class="product-card__link">Explore Desktop ↗</span></a></div></div></section><section class="block"><div class="shell"><div class="block__copy block__copy--wide"><p class="block__label">From desk to desktop</p><h2 class="block__title">Connect. Set up. Make it yours.</h2><p class="block__body">Start with Spark running FlinT OS. Connect over USB, or Bluetooth LE with compatible firmware. Use Desktop to sync time, adjust settings and choose a face.</p><div class="hero__cta hero__cta--static"><a class="btn btn--primary" href="./desktop.html">Explore Desktop</a><a class="btn btn--ghost" href="./os.html">Explore the firmware</a></div></div></div></section></main><footer class="foot"><div class="shell foot__inner"><p class="foot__brand">FlinT · DeeTech Labs</p><p class="foot__meta"><a href="https://github.com/DeeTech-Labs/FlinT-Web">Website source</a> · <a href="https://github.com/DeeTech-Labs">GitHub</a> · <a href="./changelog.html">Release history</a></p></div></footer><script src="./site.js" defer></script></body></html>

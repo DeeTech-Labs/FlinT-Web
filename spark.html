@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlinT Spark — Device</title>
+    <meta
+      name="description"
+      content="FlinT Spark: ESP32-C3, ST7789 display and USB Serial/JTAG. The first device in the FlinT family."
+    />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" href="./assets/FlinT_logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <canvas class="atmosphere__field" id="signal-field"></canvas>
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__spark"></div>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <nav class="topnav" aria-label="Main navigation"><div class="shell topnav__inner"><a class="topnav__brand" href="./index.html">FlinT <span>by DeeTech Labs</span></a><div class="topnav__links"><a href="./index.html">Home</a><a href="./spark.html" aria-current="page">Spark</a><a href="./os.html">FlinT OS</a><a href="./desktop.html">Desktop</a><a href="./changelog.html">Changelog</a></div></div></nav><header class="hero"><div class="shell hero__inner"><div class="hero__brand"><div class="device-frame">
+              <svg
+                class="viz__svg viz__svg--device"
+                viewBox="0 0 300 340"
+                role="img"
+                aria-label="Schematic outline of FlinT Spark display module"
+              >
+                <rect
+                  class="device-body"
+                  x="40"
+                  y="20"
+                  width="220"
+                  height="300"
+                  rx="28"
+                />
+                <rect
+                  class="device-bezel"
+                  x="58"
+                  y="48"
+                  width="184"
+                  height="214"
+                  rx="8"
+                />
+                <rect
+                  class="device-screen"
+                  x="68"
+                  y="58"
+                  width="164"
+                  height="140"
+                  rx="4"
+                />
+                <text class="device-clock" x="150" y="130">--:--</text>
+                <text class="device-sub" x="150" y="155">Waiting for time</text>
+                <text class="schem-sub" x="150" y="220">ST7789 · 240×280</text>
+                <text class="schem-sub" x="150" y="280">ESP32‑C3</text>
+                <text class="schem-sub" x="150" y="300">USB Serial/JTAG</text>
+                <circle class="device-dot" cx="150" cy="30" r="3" />
+              </svg>
+              <span class="device-scan" aria-hidden="true"></span>
+            </div></div><div class="hero__copy"><p class="hero__eyebrow">01 / FLINT DEVICE</p><h1 class="hero__title">Meet <span>Spark.</span></h1><p class="hero__lede">The first FlinT device. A compact clock and display, brought to life by FlinT OS.</p><div class="hero__cta"><a class="btn btn--primary" href="./os.html#start">Build the firmware</a><a class="btn btn--ghost" href="./desktop.html">Connect with Desktop</a></div></div></div></header><main><section class="block"><div class="shell"><div class="block__copy block__copy--wide"><p class="block__label">Hardware</p><h2 class="block__title">Small board. Room to create.</h2><p class="block__body">Spark combines an ESP32-C3 with an ST7789 240 × 280 display and USB Serial/JTAG. The hardware profile and wiring live alongside the firmware.</p><ul class="facts"><li>ESP32-C3</li><li>ST7789 · 240 × 280</li><li>USB Serial/JTAG</li><li>FlinT OS board profile</li></ul></div></div></section><section class="block"><div class="shell"><div class="block__copy block__copy--wide"><p class="block__label">Getting started</p><h2 class="block__title">Bring Spark to life.</h2><p class="block__body">Build and flash FlinT OS using the documented Spark board configuration, then connect Desktop to synchronize the clock and configure your device. Bluetooth LE requires a compatible NimBLE firmware build.</p><div class="hero__cta hero__cta--static"><a class="btn btn--primary" href="https://github.com/DeeTech-Labs/FlinT-OS#quick-start">Firmware setup</a><a class="btn btn--ghost" href="https://github.com/DeeTech-Labs/FlinT-OS/tree/main/components/flint/board">Hardware documentation</a></div></div></div></section></main><footer class="foot"><div class="shell foot__inner"><p class="foot__brand">FlinT · DeeTech Labs</p><p class="foot__meta"><a href="https://github.com/DeeTech-Labs/FlinT-Web">Website source</a> · <a href="https://github.com/DeeTech-Labs">GitHub</a> · <a href="./changelog.html">Release history</a></p></div></footer><script src="./site.js" defer></script></body></html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlinT Desktop — Companion</title>
+    <meta
+      name="description"
+      content="FlinT Desktop: USB and Bluetooth LE companion for Spark and future FlinT devices."
+    />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" href="./assets/FlinT_logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <canvas class="atmosphere__field" id="signal-field"></canvas>
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__spark"></div>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <nav class="topnav" aria-label="Main navigation"><div class="shell topnav__inner"><a class="topnav__brand" href="./index.html">FlinT <span>by DeeTech Labs</span></a><div class="topnav__links"><a href="./index.html">Home</a><a href="./spark.html">Spark</a><a href="./os.html">FlinT OS</a><a href="./desktop.html" aria-current="page">Desktop</a><a href="./changelog.html">Changelog</a></div></div></nav><header class="hero"><div class="shell hero__inner"><div class="hero__brand"><img class="hero__mark" src="./assets/FlinT_logo.png" width="280" height="280" alt="FlinT logo" /></div><div class="hero__copy"><p class="hero__eyebrow">03 / DESKTOP COMPANION · ALPHA</p><h1 class="hero__title">Your FlinT.<br/><span>Within reach.</span></h1><p class="hero__lede">Connect Spark to your computer. Sync time, adjust settings, manage profiles and choose how your device looks.</p><div class="hero__cta"><a class="btn btn--primary" href="https://github.com/DeeTech-Labs/FlinT-Desktop">Get the source</a><a class="btn btn--ghost" href="https://github.com/DeeTech-Labs/FlinT-Desktop/blob/main/docs/BUILD.md">Build & run</a></div></div></div></header><main><section class="block"><div class="shell"><div class="block__copy block__copy--wide"><p class="block__label">Connected</p><h2 class="block__title">From the first connection.</h2><p class="block__body">Discover devices over USB and Bluetooth LE, inspect device status and synchronize time from your PC. Settings, profiles, backup and restore, built-in face selection and Face Studio require compatible protocol v1 firmware.</p><ul class="facts"><li>USB & Bluetooth LE</li><li>PC time synchronization</li><li>Settings & profiles</li><li>Faces & Face Studio</li><li>Session capture & JSON export</li></ul></div></div></section><section class="block"><div class="shell"><div class="block__copy block__copy--wide"><p class="block__label">Availability</p><h2 class="block__title">Built in the open.</h2><p class="block__body">Desktop is in alpha. Linux builds and the USB client are covered by CI. Windows and macOS are target platforms; validated packages are not yet available. Firmware updates, Actions and Android remain in development.</p><div class="hero__cta hero__cta--static"><a class="btn btn--primary" href="https://github.com/DeeTech-Labs/FlinT-Desktop/blob/main/docs/BUILD.md">Build instructions</a><a class="btn btn--ghost" href="./desktop-changelog.html">Desktop changelog</a></div></div></div></section></main><footer class="foot"><div class="shell foot__inner"><p class="foot__brand">FlinT · DeeTech Labs</p><p class="foot__meta"><a href="https://github.com/DeeTech-Labs/FlinT-Web">Website source</a> · <a href="https://github.com/DeeTech-Labs">GitHub</a> · <a href="./changelog.html">Release history</a></p></div></footer><script src="./site.js" defer></script></body></html>
